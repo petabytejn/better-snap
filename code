@@ -1,0 +1,4 @@
+window.addEventListener("blur", function(event) {
+console.log("stopping snapchat")
+event.stopImmediatePropagation();
+}, true);
